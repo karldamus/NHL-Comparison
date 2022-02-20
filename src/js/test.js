@@ -1,5 +1,5 @@
 var xhttp;
-
+// https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md#franchises
 window.onload = async function() {
     let URL = "https://statsapi.web.nhl.com/api/v1/teams";
 
@@ -13,18 +13,7 @@ window.onload = async function() {
         console.log(team[1].teamName);
         console.log(teamRoster);
     }
-
-    // console.log(leafsRoster);
-    
-    // print(allTeamData);
-    // print(leafsRoster);
-    // print(allTeamNames);
 }
-
-// async function getAllTeams(URL, current) {
-//     var data = await getData(URL);
-
-// }
 
 /**
  * 
