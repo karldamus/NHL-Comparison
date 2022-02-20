@@ -10,7 +10,7 @@ Comparable stats in development:
 - Player vs Player stats
 - - -
 ### Changelog:
-See [Changelog](https://github.com/karldamus/NHL-Comparison/CHANGELOG.md) for more information
+See [Changelog](https://github.com/karldamus/NHL-Comparison/blob/main/CHANGELOG.md) for more information
 
 - - -
 Not affiliated with the [National Hockey League](https://www.nhl.com/) in any way.
