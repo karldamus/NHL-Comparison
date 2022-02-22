@@ -7,16 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NHL Comparison</title>
 
-    <!-- <script
-        src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-        crossorigin="anonymous">
-    </script> -->
-
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <iframe src="components/header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+    <!-- <iframe src="search/index.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe> -->
+
+    <div class="searchWrapper">
+        <h1>Search</h1>
+        <div class="searchboxWrapper">
+            <div class="formWrapper">
+                <input type="text" placeholder="leafs" class="searchboxText" id="searchText" autocomplete="off">
+                <input type="submit" class="submit" value="Search" id="searchSubmit" onclick="search()">
+            </div>
+        </div>
+    </div>
+
+    <div class="results" id="resultBox">
+        <table class="resultsTable" id="resultsTable">
+            
+        </table>
+    </div>
+
+    <!-- FOOTER -->
+    <!-- <iframe src="components/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe> -->
 </body>
 <!-- <script type="text/javascript" src="js/main.js"></script> -->
 <script type="text/javascript" src="js/data/constants/filePaths.js"></script>
