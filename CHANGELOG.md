@@ -1,3 +1,10 @@
+### 0.1.1 (2022.02.22)
+- **New:** Ability to search for team rosters with frontend search box
+- **New:** Ability to search for a single player (basic info)
+- **New:** Basic css styling
+
+Dev Note: Might move to a Django environment in the near future to allow easy component integration.
+- - -
 ### 0.1.0 (2022.02.20)
 
 - **New:** Proper file structure
