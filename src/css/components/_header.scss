@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    .title {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .leftAlign, .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}

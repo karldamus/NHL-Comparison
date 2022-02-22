@@ -1,0 +1,36 @@
+.searchboxWrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .formWrapper {
+        width: 40%;
+
+        display: grid;
+        gap: 10px;
+    }
+}
+
+.searchboxText {
+    // margin-top: 1rem;
+    border: none;
+    background-color: $lightGrey;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.submit {
+    background-color: $green;
+    border: none;
+    font-size: 20px;
+    padding: 6px 20px;
+    border-radius: 4px;
+
+    font-weight: bold;
+}
+
+.submit:hover {
+    cursor: pointer;
+}

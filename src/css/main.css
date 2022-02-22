@@ -1,1 +1,143 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html, * {
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+}
+
+html, * {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  height: 100%;
+  background-color: #191919;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header .leftAlign, header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+  border-top: 1px solid white;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer p {
+  padding: 10px 20px;
+}
+
+.searchboxWrapper {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.searchboxWrapper .formWrapper {
+  width: 40%;
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+.searchboxText {
+  border: none;
+  background-color: #272727;
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.submit {
+  background-color: #017A4C;
+  border: none;
+  font-size: 20px;
+  padding: 6px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.searchWrapper {
+  width: 100%;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  padding: 2rem 0;
+}
+
+.results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0;
+  padding-top: 0;
+}
+
+.results .resultsTable th, .results .resultsTable td {
+  padding: 2px 10px;
+  padding-right: 30px;
+}
+
+.results .resultsTable th {
+  background-color: #017A4C;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.results .resultsTable tr:nth-child(even) {
+  background-color: #272727;
+}
+/*# sourceMappingURL=main.css.map */
