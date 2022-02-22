@@ -9,8 +9,18 @@ let teams = "js/data/teams/";
 let tournaments = "js/data/tournaments/";
 
 let filePaths = [
-    constants + "links.js",
-    helpers + "getData.js",
-    teams + "singleTeam.js",
-    "js/main.js"
+    constants + "links",
+    helpers + "validateInput",
+    helpers + "getData",
+
+    teams + "singleTeam",
+
+    players + "singlePlayer",
+
+    "js/main"
 ]
+
+// add js extension (improves readability in filePaths array)
+for (let i = 0; i < filePaths.length; i++) {
+    filePaths[i] += ".js";
+}
