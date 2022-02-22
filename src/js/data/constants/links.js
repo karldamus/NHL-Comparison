@@ -1,5 +1,5 @@
 let links = {
-    "root" : "https://statsapi.web.nhl.com/api/v1/",
+    "root" : "https://statsapi.web.nhl.com/",
     "teams" : {
         "root": "https://statsapi.web.nhl.com/api/v1/teams/",
 
@@ -21,7 +21,7 @@ let links = {
         "root" : "https://statsapi.web.nhl.com/api/v1/people/",
 
         "modifier" : {
-
+            
         }
     },
 
